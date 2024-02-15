@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  input {
+    @apply border px-3 py-2 text-black focus:ring-0 focus:border-0 focus:outline-0
+  }
+
+}
